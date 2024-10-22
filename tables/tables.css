@@ -1,0 +1,24 @@
+.wrapper-table {
+width: 900px;
+margin: 0 auto;
+}
+body {
+    font-size:30px;
+}
+table {
+width: 100%;
+border: 4px solid #000;
+
+}
+td {
+    border: 1px solid #000;
+}
+th {
+    border: 1px solid #000;
+}
+table tr td:nth-child(2) {
+    width: 600px;
+}
+table, th, td {
+    border-collapse: separate;
+}

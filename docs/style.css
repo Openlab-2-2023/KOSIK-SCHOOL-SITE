@@ -1,0 +1,71 @@
+body {
+    padding-top: 150px;
+    height: 3000px;
+}
+.site-header {
+    position: fixed;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    top:0;
+    left:0;
+    right:0;
+    box-shadow: 0 2px 8px 0 rgba(60, 60, 60, 0.2), 0 4px 20px 0 rgba(60, 60, 60, 0.19);
+}
+.title-odbory
+{
+    text-align: center;
+    padding-bottom: 1%;
+    color:rgb(12, 52, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.grid-odbory1 {
+   display:grid;
+   justify-content: center;
+   grid-template-columns: 30% 30% 30%;
+   gap: 5%; 
+   row-gap: 5%; 
+   margin-top: 30px; 
+   
+}
+.grid-odbory2 {
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%; 
+    row-gap: 5%; 
+    margin-top: 30px; 
+    
+ }
+p
+{   
+    padding-top:20px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: rgb(19, 35, 118);
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:16px;
+}
+p2
+{   
+    padding-top:25px;
+    
+    color:rgb(255, 255, 255);
+    
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+}
+h1
+{  
+    color:rgb(32, 14, 194);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+}
