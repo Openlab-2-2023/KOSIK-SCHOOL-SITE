@@ -8,6 +8,7 @@ body {
 .site-header {
     position: fixed;
     height: 100px;
+    padding-bottom: 2%;
     background-color: rgb(255, 255, 255);
     top:0;
     left:0;
@@ -15,13 +16,17 @@ body {
     box-shadow: 0 2px 8px 0 rgba(60, 60, 60, 0.2), 0 4px 20px 0 rgba(60, 60, 60, 0.19);
     z-index:99;
 }
+@font-face {
+      font-family: "Fira Sans" ; 
+      src:url(fonts/FiraSans-Medium.ttf)
+}
 .title-odbory
 {
     
     text-align: center;
     padding-bottom: 0%;
     color:rgb(12, 52, 183);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Fira Sans";
     font-weight: bold;
     font-size: 50px;
     
@@ -59,7 +64,7 @@ button
     height: 70px;
     width:100%;
     border: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Fira Sans";
     font-weight: bold;
     font-size:16px;
     transition: background-color 0.3s, transform 0.2s;
@@ -75,14 +80,14 @@ p2
     color:rgb(255, 255, 255);
     
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Fira Sans";
     font-weight: bold;
     font-size:20px;
 }
 h1
 {  
     color:rgb(93, 151, 212);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Fira Sans";
     font-weight: bold;
     font-size:20px;
     position:relative;
@@ -90,21 +95,22 @@ h1
     z-index: 1;
 }
 .middle-rectangle1 {
-display:flex;
+position: relative;
 margin-top: 100px;
 left:0;
 right: 0;
-width: 100vw;
+padding: 2%;
+padding-top: 2%;
+width: 100%;
 flex: 1;
 height: 600px;
-background:rgb(227, 227, 227)
+background:rgb(227, 227, 227);
 }
 .intro-imgdiv {
     position:relative;
     display:flex;
-    width: 100vw;          
-    height: 600px;   
-         
+    width: 100%;          
+    height: 650px;   
     background-image: url('img/bannerimg1.png'); 
     background-size: cover;       
     background-position: center -5%;
@@ -117,9 +123,9 @@ background:rgb(227, 227, 227)
 }
 .titleimg {
     text-align: center; 
-    margin-bottom:20%;
+    margin-bottom:0%;
     font-size: 3vw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Fira Sans";
     font-weight: bold;
     color: white; 
     z-index: 3; 
@@ -144,4 +150,55 @@ background:rgb(227, 227, 227)
     width: 90vw;
     z-index:3;
     margin-top:1%;
+}
+.underline-text1 {
+    background-color: rgb(117   , 168, 53);
+    height:15px;
+    width: 95vw;
+    z-index:3;
+    
+}
+h4 {
+    margin-top: 2%;
+font-family: "Fira Sans";
+font-weight: bold;
+font-size: 50px;
+color: rgb(19, 35, 118);
+}
+.img-skola {
+position:absolute;
+width:40%;
+right: 5%;
+bottom:5%;
+height:auto;
+border: solid 8px rgb(255, 255, 255);
+box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+transform: rotate(6deg);
+
+}
+.text-skola {
+    margin-top:7%;
+}
+p4 {
+    color:rgb(0, 0, 0);
+    font-family: "Fira Sans";
+    font-weight: bold;
+    font-size:22px;
+    position:relative;
+    text-align: left;
+  
+}
+
+p5 {
+    color:rgb(0, 0, 0);
+    font-family: "Fira Sans";
+    font-size:20px;
+    position:relative;
+    text-align: left;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
