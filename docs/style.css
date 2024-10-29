@@ -1,5 +1,5 @@
 body {
-    padding-top: 150px;
+    padding-top: 100px;
     height: 3000px;
     margin: 0;
     padding-left: 0;
@@ -7,7 +7,7 @@ body {
 }
 .site-header {
     position: fixed;
-    height: 150px;
+    height: 100px;
     background-color: rgb(255, 255, 255);
     top:0;
     left:0;
@@ -97,8 +97,6 @@ right: 0;
 width: 100vw;
 flex: 1;
 height: 600px;
-border-left: solid 50px rgb(227, 227, 227) ;
-border-right: solid 50px rgb(227, 227, 227) ;
 background:rgb(227, 227, 227)
 }
 .intro-imgdiv {
@@ -106,7 +104,7 @@ background:rgb(227, 227, 227)
     display:flex;
     width: 100vw;          
     height: 600px;   
-    padding-top: 150px;      
+         
     background-image: url('img/bannerimg1.png'); 
     background-size: cover;       
     background-position: center -5%;
