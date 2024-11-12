@@ -161,7 +161,7 @@ form .button input {
 form .button input:hover {
   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
-@media only screen and (max-width: 580px) {
+@media (max-width: 580px) {
     .container {
         width:100%;
         margin-bottom:15px;
@@ -175,7 +175,7 @@ form .button input:hover {
             overflow: y scroll;
     }
 }
-@media only screen and (max-width: 450px) {
+@media (max-width: 450px) {
  .input-box {
     flex-direction: column;
  }

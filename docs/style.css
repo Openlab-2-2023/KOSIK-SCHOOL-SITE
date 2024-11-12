@@ -1,6 +1,6 @@
 body {
     padding-top: 100px;
-    height: 3000px;
+    height: 2600px;
     margin: 0;
     padding-left: 0;
     padding-right: 0;
@@ -169,13 +169,13 @@ color: rgb(19, 35, 118);
 position:absolute;
 max-width: 590px;
 width:40%;
+z-index:1;
 right: 5%;
 bottom:5%;
 object-fit: cover;
+
 height:auto;
-border: solid 8px rgb(255, 255, 255);
-box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
-transform: rotate(6deg);
+transform: rotate(0deg);
 
 }
 .text-skola {
@@ -195,6 +195,7 @@ p5 {
     color:rgb(0, 0, 0);
     font-family: "Fira Sans";
     font-size:20px;
+    z-index:2;
     position:relative;
     text-align: left;
 }
@@ -221,6 +222,7 @@ grid-template-columns: 8% 8%;
 gap:2%;
 margin-left:7%;
 row-gap:2%;
+z-index: 99;
 column-gap:1%;
 }
 h5 {
@@ -231,15 +233,55 @@ font-size: 35px;
 color: rgb(93, 151, 212);
 }
 .logo {
+    
 position: absolute;
 bottom: -2%;
 left: 1%;
 
 }
 
+#footer {
+    padding-top:2%;
+    position:relative;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:1;
+    flex:1;
+    height:6vw;
+    background-color: rgb(86, 86, 86);
+}
+p6 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:2%;
+    font-size:1vw;
+    color: rgb(154, 154, 154);
+    position:absolute;
+    left:32%;
+    top:10%;
+    
+
+}
+p7 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:2%;
+    font-size:1vw;
+    color: rgb(154, 154, 154);
+    position:absolute;
+    left:2%;
+    top:10%;
+    
+
+}
+
+#footerlink {
+    color: rgb(154, 154, 154);
 
 
-
+}
+a {
+    text-decoration: none;
+}
 *,
 *::before,
 *::after {
