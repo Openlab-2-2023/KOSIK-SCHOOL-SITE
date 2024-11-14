@@ -279,9 +279,47 @@ p7 {
 
 
 }
+.categories1 {
+  margin-top:0.5%;
+  margin-left:20%;
+  display:grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10%;
+ 
+}
+.categories2 {
+    
+    margin-top:-4.7%;
+  margin-left:80%;
+gap:40%;
+
+  display:grid;
+  grid-template-columns: 7% 7%
+    
+   
+   
+  }
+.cat-but {
+    background:none;
+    font-size: 20px;
+    color:rgb(19, 35, 118);
+
+}
+.cat-but:hover {
+    background:none;
+    
+}
+.cat-but1 {
+    background:none;
+    font-size: 20px;
+    color:rgb(19, 35, 118);
+}
+.cat-but1:hover {
+    background:none;
+}
 a {
     text-decoration: none;
 }
+
 *,
 *::before,
 *::after {
