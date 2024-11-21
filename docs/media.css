@@ -1,0 +1,35 @@
+@media (max-width: 80%) {
+    .categories1 {
+        
+        top:25%;
+        left:30%;
+
+     
+    }
+}
+@media (max-width: 67%) {
+    .categories1 {
+        
+        top:45%;
+        left:30%;
+
+     
+    }
+}
+@media (max-width: 50%) {
+    .categories1 {
+        
+        top:65%;
+        left:30%;
+
+     
+    }
+}
+@media (max-width: 110%) {
+    .categories1 {
+        
+      margin-top:20%
+
+     
+    }
+}
