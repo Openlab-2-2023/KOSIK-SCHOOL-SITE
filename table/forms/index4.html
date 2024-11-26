@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="grid">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, totam culpa! Repellat sed asperiores
+            et.</h1>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, totam culpa! Repellat sed asperiores
+            et.</h1>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, totam culpa! Repellat sed asperiores
+            et.</h1>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, totam culpa! Repellat sed asperiores
+            et.</h1>
+    </div>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            row-gap: 15px;
+        }
+
+        @media (max-width:800px) {
+            .grid {
+                grid-template-columns: 100px;
+            }
+        }
+    </style>
+</body>
+
+</html>
