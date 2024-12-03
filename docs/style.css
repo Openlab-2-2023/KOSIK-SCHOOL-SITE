@@ -335,7 +335,7 @@ p7 {
     width: 100%;
     flex: 1;
     height: 600px;
-    background: rgb(255, 8, 8);
+    background: rgb(255, 255, 255);
 }
 
 .cat-but {
@@ -359,11 +359,11 @@ a {
 .staff {
     position: absolute;
     top: 35%;
-    left: 5%;
+    left: 4%;
     display: grid;
     row-gap: 20%;
     column-gap: 10%;
-    grid-template-columns: 15% 15% 15%  15% 15% 15%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10%;
 }
 
 h6 {
@@ -385,10 +385,24 @@ h7 {
 }
 
 .member-img {
+    margin-top:20%;
+    margin-left:20%;
+    position: relative;
     max-width: 125px;
     border-radius: 50%;
     max-height: auto;
     width: 100%;
+    z-index: 3;
+}
+#mumia-img {
+    margin-top:6%;
+    margin-left:20%;
+    position: relative;
+    max-width: 125px;
+    border-radius: 50%;
+    max-height: auto;
+    width: 100%;
+    z-index: 3;
 }
 
 p8 {
@@ -402,11 +416,29 @@ p8 {
 }
 
 .member-card {
+    z-index: 2;
+    border-radius: 8px;
+    position:relative;
     padding-top:20%;
-    height:120%;
+    height:140%;
     width:200px;
-    
-    background-color: rgb(227, 227, 227);;
+    background-color: rgb(227, 227, 227);
+    box-shadow: 0 2px 8px 0 rgba(60, 60, 60, 0.4), 0 4px 20px 0 rgba(60, 60, 60, 0.19);
+}
+.member-bg {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position:absolute;
+    top:0;
+    z-index:1;
+  background-color: rgb(117, 168, 53);
+  height:40%;
+  width:200px;
+}
+
+.member-card:hover {
+    transform: scale(1.05);
+   
 }
 *,
 *::before,
