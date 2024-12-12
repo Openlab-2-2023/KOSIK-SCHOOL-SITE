@@ -271,6 +271,13 @@
         left: 1%;
 
     }
+    .home {
+        width: 3vw;
+        height: auto;
+        position: absolute;
+        top:30%;
+        left: 17.5%;
+    }
 
     .footer2 {
         position: relative;
@@ -442,6 +449,56 @@
     .member-card:hover {
         transform: scale(1.05);
     
+    }
+    .cafeimg  {
+        max-height: 175px;
+        height:100%;
+        width: auto;
+        position:absolute;
+        left:7%;
+        top:60%;
+        border-radius: 50%;
+        
+    }
+    h9 {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Fira Sans";
+        color: rgb(19, 35, 118);
+    }
+    p10 {
+        font-size: 17.5px;
+        font-family: "Fira Sans";
+        color: rgb(0, 0, 0)
+    }
+    .cafestudent {
+        display: grid;
+        grid-template-columns: 12.5% 15%;
+        gap: 2%;
+        row-gap: 2%;
+        z-index: 99;
+        column-gap: 1%;
+    }
+    .cafetext {
+        position:absolute;
+        left:20%;
+        top:70%;
+    }
+    .caferight {
+        left:10%;
+    }
+    .cafeteria {
+        
+        display:grid;
+        grid-template-columns: 70% 30%;
+    }
+    #cafefood {
+        position:absolute;
+        top:25%;
+        left:60%;
+        max-height: 420px;
+        width: auto;
+        height: 100%;
     }
     *,
     *::before,
