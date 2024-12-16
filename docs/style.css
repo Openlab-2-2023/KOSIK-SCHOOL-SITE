@@ -95,7 +95,7 @@
         text-align: left;
         font-family: "Fira Sans";
         font-weight: bold;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     h1 {
@@ -294,7 +294,9 @@
     .footer {
         background-color: rgb(86, 86, 86);
         color: #ecf0f1;
-        
+        left:0;
+        bottom:0;
+        right:0;
         text-align: center;
         padding: 20px 10px;
         font-family: Arial, sans-serif;
@@ -321,9 +323,9 @@
         position: absolute;
         top: 15%;
         left: 30%;
-        gap: 10%;
+        gap: 15%;
         display: grid;
-        grid-template-columns: 10% 10% 10% 10% 10% 10% 10%;
+        grid-template-columns: 12% 12% 12% 12% 12% 12% 12% ;
 
     }
 
@@ -500,6 +502,117 @@
         width: auto;
         height: 100%;
     }
+    .libvid {
+        position: absolute;
+        max-width: 590px;
+        width: 40%;
+        z-index: 1;
+        right: 5%;
+        bottom: 15%;
+        object-fit: cover;
+
+        height: auto;
+        transform: rotate(0deg);
+
+    }
+    h3 {
+        padding-bottom: 0%;
+        color: rgb(12, 52, 183);
+        font-family: "Fira Sans";
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .odbor-grid {
+        display:grid;
+        grid-template-columns: 70%;
+        margin-top:7.5%;
+        margin-left:5%;
+    }
+    .odbor-content {
+        display:grid;
+        gap:10%;
+        grid-template-columns: 70% 50%;
+    }
+    .odbor-img {
+        max-width: 850px;
+        width: 100%;
+        height: auto;
+    }
+    .pn {
+        font-size: 18px;
+        padding-bottom:5%;
+        font-family: 'Fira Sans';
+    }
+    .pb {
+        font-size: 18px;
+        font-family: 'Fira Sans';
+        
+        
+    } 
+    .pt {
+        font-size: 25px;
+        padding-bottom:0%;
+        margin:0%;
+        font-family: 'Fira Sans';
+    }    
+    .ps {
+        font-size: 22px;
+        padding-bottom:0%;
+        margin:0%;
+        font-family: 'Fira Sans';
+    }  
+    .pad {
+        padding-bottom:20%;
+        
+    }
+    .kontakt-grid {
+        display:grid;
+        grid-template-columns: 50% 40%;
+        gap:5%;
+
+
+    }
+    input[type=text], select, textarea {
+        width:590px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      .form {
+        margin-top:30%;
+
+      }
+      .lb {
+        font-size: 22px;
+        padding-bottom:0%;
+        margin:0%;
+        font-family: 'Fira Sans';
+      }
     *,
     *::before,
     *::after {
