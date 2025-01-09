@@ -1,0 +1,41 @@
+@media screen and (max-width: 850px) {
+    .site-header {
+        height: 10%;
+
+     }   
+     .cat-but {
+        font-size: 18px;
+        gap:2%;
+        
+     }
+     .categories1 {
+        left:25%;
+        top:5%;
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% ;
+     }
+     .logo {
+        width:20vw;
+        top:7%;
+     }
+     .home {
+        width: 4vw;
+        left: 19%;
+     }
+     .p3-text {
+        visibility: hidden;
+     }
+     .intro-imgdiv {
+        background-position: right;
+        height: 250px;
+     }
+     .grid-odbory1 {
+        height: 60px;
+        margin: 5px;
+     }
+     h1 {
+        visibility:hidden;
+     }
+     .title-odbory {
+        font-size: 65%;
+     }
+}
