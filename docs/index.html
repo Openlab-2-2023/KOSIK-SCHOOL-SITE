@@ -24,9 +24,12 @@
             <div class="categories1">
                 <button class="cat-but"><a href="skola.html" style="color:rgb(19, 35, 118);">O⠀škole </a></button>
                 <button class="cat-but"><a href="kontakt.html" style="color:rgb(19, 35, 118);">Kontakt </a></button>
-                <button class="cat-but"><a href="https://www.spsknm.sk/fotogal/" style="color:rgb(19, 35, 118);">Fotogaléria </a></button>
-                <button class="cat-but" style="padding-left:50%;"><a href="https://spsknm.edupage.org/"style="color:rgb(19, 35, 118);">Edupage</a></button>
-                <button class="cat-but" style="padding-left:50%;"><a href="https://spsknm.edupage.org/timetable/"style="color:rgb(19, 35, 118);">Rozvrh</a></button>
+                <button class="cat-but"><a href="https://www.spsknm.sk/fotogal/"
+                        style="color:rgb(19, 35, 118);">Fotogaléria </a></button>
+                <button class="cat-but" id="edu" style="padding-left:50%;"><a href="https://spsknm.edupage.org/"
+                        style="color:rgb(19, 35, 118);">Edupage</a></button>
+                <button class="cat-but" id="rozvrh" style="padding-left:50%;"><a href="https://spsknm.edupage.org/timetable/"
+                        style="color:rgb(19, 35, 118);">Rozvrh</a></button>
             </div>
         </div>
         <div class="intro-imgdiv">
@@ -44,19 +47,19 @@
             <h3>Odbory</h3>
         </div>
         <div class="grid-odbory1">
-            <div>
+            <div class="obr">
                 <h1>Pre tento odbor tu aj tak nikto nejde.</h1>
                 <button onclick="window.location.href='mecha.html';">
                     <p2>>></p2> Mechatronika
                 </button>
             </div>
-            <div>
+            <div class="obr">
                 <h1> Elektrika, káble, teória ktorá sa nedá pochopiť.</h1>
                 <button onclick="window.location.href='elk.html';">
                     <p2>>></p2> Elektrotechnika
                 </button>
             </div>
-            <div >
+            <div class="obr">
                 <h1>Chcel si ísť na IT? Tu sa naučíš aj dejepis. </h1>
                 <button onclick="window.location.href='ist.html';">
                     <p2>>></p2> Informačné a sieťové technológie
@@ -64,19 +67,19 @@
             </div>
         </div>
         <div class="grid-odbory2">
-            <div>
+            <div class="obr">
                 <h1>Popravde, to horšie byť nemôže.</h1>
                 <button onclick="window.location.href='log.html';">
                     <p2>>></p2> Logistika
                 </button>
             </div>
-            <div>
+            <div class="obr">
                 <h1> Hocikde inde, ale tu radšej nie...</h1>
                 <button onclick="window.location.href='stroj.html';">
                     <p2>>></p2> Strojárstvo
                 </button>
             </div>
-            <div>
+            <div class="obr">
                 <h1>Veľké očakávanie, väčšie sklamanie...</h1>
                 <button onclick="window.location.href='it.html';">
                     <p2>>></p2> Inteligentné technológie
@@ -92,8 +95,8 @@
                 <p4>Tu poskytujeme všetky potrebné informácie týkajúce sa života na škole.</p4><br>
                 <p4>⠀</p4><br>
                 <p5>Absolventi našej školy majú veľmi široké možnosti uplatnenia sa v praxi, </p5><br>
-                    <p4>práve preto polovica z odborných učiteľov účí priamo na našej škole</p4><br>
-                        <p4> a nepracuje s výpočtovou technikou.</p4>
+                <p4>práve preto polovica z odborných učiteľov účí priamo na našej škole</p4><br>
+                <p4> a nepracuje s výpočtovou technikou.</p4>
 
             </div>
             <img class="img-skola" src="img/priecelie_skoly_4.jpg" alt="">
@@ -101,16 +104,20 @@
         <div class="bottom-rectangle">
             <h4>Kde nás ešte môžete nájsť?</h4>
             <div class="bottom-grid">
-            <div class="img-grid1">
-                <img class=img-social src="img/Instagram_icon.png.webp" alt="">
-                <h5><a href="https://www.instagram.com/spsit.knm/">Instagram</a></h5>
-                <img class=img-social src="img/Facebook_logo_(square).png" alt="" style="border-radius: 16px;">
-                <h5><a href="https://www.facebook.com/SPSit.KNM">Facebook</a></h5>
-                <img class=img-social src="img/reddit-icon-512x512-mp8wosd1.png" alt="" style="border-radius: 16px;">
-                <h5><a href="https://www.reddit.com/r/spsit/?rdt=37451">Reddit</a></h5>
+                <div class="img-grid1">
+                    <img class=img-social src="img/Instagram_icon.png.webp" alt="">
+                    <h5><a href="https://www.instagram.com/spsit.knm/">Instagram</a></h5>
+                    <img class=img-social src="img/Facebook_logo_(square).png" alt="" style="border-radius: 16px;">
+                    <h5><a href="https://www.facebook.com/SPSit.KNM">Facebook</a></h5>
+                    <img class=img-social src="img/reddit-icon-512x512-mp8wosd1.png" alt=""
+                        style="border-radius: 16px;">
+                    <h5><a href="https://www.reddit.com/r/spsit/?rdt=37451">Reddit</a></h5>
+                </div>
+                <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2601.630801403162!2d18.787606576367278!3d49.30233657139574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714434cc795f2c5%3A0x382a67dba9c15cce!2zU3BvamVuw6EgUHJpZW15c2VsbsOhIMWga29sYSBLTk0!5e0!3m2!1scs!2ssk!4v1733821070640!5m2!1scs!2ssk"
+                    width="500" height="350" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2601.630801403162!2d18.787606576367278!3d49.30233657139574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714434cc795f2c5%3A0x382a67dba9c15cce!2zU3BvamVuw6EgUHJpZW15c2VsbsOhIMWga29sYSBLTk0!5e0!3m2!1scs!2ssk!4v1733821070640!5m2!1scs!2ssk" width="500" height="350"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
         </div>
         <footer class="footer">
             <div class="footer-text">

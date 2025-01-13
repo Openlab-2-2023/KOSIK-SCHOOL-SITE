@@ -1,41 +1,416 @@
-@media screen and (max-width: 850px) {
-    .site-header {
-        height: 10%;
+@media screen and (max-width: 950px) {
+   .site-header {
+      height: 10%;
 
-     }   
-     .cat-but {
-        font-size: 18px;
-        gap:2%;
-        
-     }
-     .categories1 {
-        left:25%;
-        top:5%;
-        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% ;
-     }
-     .logo {
-        width:20vw;
-        top:7%;
-     }
-     .home {
-        width: 4vw;
-        left: 19%;
-     }
-     .p3-text {
-        visibility: hidden;
-     }
-     .intro-imgdiv {
-        background-position: right;
-        height: 250px;
-     }
-     .grid-odbory1 {
-        height: 60px;
-        margin: 5px;
-     }
-     h1 {
-        visibility:hidden;
-     }
-     .title-odbory {
-        font-size: 65%;
-     }
+   }
+
+   .cat-but {
+      font-size: 18px;
+      gap: 2%;
+
+   }
+
+   .categories1 {
+      left: 25%;
+      top: 2%;
+      grid-template-columns: 10% 10% 10% 10% 5%;
+   }
+
+   .logo {
+      width: 20vw;
+      top: 7%;
+   }
+
+   .home {
+      width: 4vw;
+      left: 19%;
+   }
+
+   .p3-text {
+      visibility: hidden;
+   }
+
+   .intro-imgdiv {
+      background-position: right;
+      height: 250px;
+   }
+
+   .grid-odbory1 {
+      height: 60px;
+      margin: 5px;
+      row-gap: 5%;
+   }
+
+
+
+   .obr {
+      padding-bottom: 5%;
+      gap: 5%;
+   }
+
+   h1 {
+      visibility: hidden;
+   }
+
+   h3 {
+      font-size: 35px;
+      margin-left: 3%;
+   }
+
+
+
+   .img-skola {
+      visibility: hidden;
+   }
+
+   #map {
+      height: 350px;
+      width: 280px;
+
+   }
+}
+
+@media screen and (max-width: 1000px) {
+   .site-header {
+      height: 15%;
+
+   }
+
+   .cat-but {
+      font-size: 20px;
+      gap: 3%;
+
+   }
+
+   .categories1 {
+      left: 25%;
+      top: 2%;
+      grid-template-columns: 10% 10% 10% 10% 5%;
+   }
+
+   .logo {
+      width: 20vw;
+      top: 7%;
+   }
+
+   .home {
+      width: 4vw;
+      left: 19%;
+   }
+
+   .p3-text {
+      visibility: hidden;
+   }
+
+   .intro-imgdiv {
+      background-position: right;
+      height: 250px;
+   }
+
+   .grid-odbory1 {
+      height: 60px;
+      margin: 5px;
+      row-gap: 5%;
+   }
+
+
+
+   h1 {
+      visibility: hidden;
+   }
+
+   h3 {
+      font-size: 35px;
+      margin-left: 3%;
+   }
+
+   .img-skola {
+      visibility: hidden;
+   }
+
+   #map {
+      height: 350px;
+      width: 350px;
+
+   }
+}
+
+@media screen and (max-width: 1250px) {
+   .img-skola {
+      bottom: 3%;
+      right: 1%;
+      width: 37%;
+   }
+ 
+
+}
+@media screen and (max-width: 1201px) {
+
+   .img-skola {
+      visibility: hidden;
+   }
+}
+@media screen and (max-width: 770px) {
+   .site-header {
+      height: 15%;
+      
+      
+
+   }
+
+   .cat-but {
+      font-size: 18px;
+      gap: 2%;
+
+   }
+
+   .categories1 {
+      left: 25%;
+      top: 2%;
+      grid-template-columns: 10% 10% 10% 10%;
+   }
+    #rozvrh {
+      margin-top:-125%;
+    }
+
+   .logo {
+      width: 20vw;
+      top: 7%;
+   }
+
+   .home {
+      width: 4vw;
+      left: 19%;
+   }
+
+   .p3-text {
+      visibility: hidden;
+   }
+
+   .intro-imgdiv {
+      background-position: right;
+      height: 250px;
+      width: 100%;
+     
+   }
+
+   .grid-odbory1 {
+      grid-template-columns: 80% ;
+      column-gap:5%;
+      
+      
+   }
+   .grid-odbory2 {
+      column-gap:5%;
+      grid-template-columns: 80% ;
+      
+      
+   }
+
+
+
+   .obr {
+      padding-bottom: 5%;
+      gap: 5%;
+   }
+
+   h1 {
+      visibility: hidden;
+   }
+
+   h3 {
+      font-size: 35px;
+      margin-left: 3%;
+   }
+
+
+
+   .img-skola {
+      visibility: hidden;
+   }
+
+   #map {
+      height: 300px;
+      width: 300px;
+
+   }
+}
+@media screen and (max-width: 630px) {
+   .site-header {
+      height: 15%;
+      
+      
+
+   }
+
+   .cat-but {
+      font-size: 18px;
+      gap: 2%;
+
+   }
+
+   .categories1 {
+      left: 25%;
+      top: 2%;
+      grid-template-columns: 10% 10% 10% 10%;
+   }
+
+   .logo {
+      width: 20vw;
+      top: 7%;
+   }
+
+   .home {
+      width: 4vw;
+      left: 19%;
+   }
+
+   .p3-text {
+      visibility: hidden;
+   }
+
+   .intro-imgdiv {
+      background-position: right;
+      height: 250px;
+      width: 100%;
+     
+   }
+
+   .grid-odbory1 {
+      height: 60px;
+      margin: 5px;
+      row-gap: 5%;
+      grid-template-columns: 80% ;
+   }
+
+   .grid-odbory2 {
+      margin-top: 5%;
+      grid-template-columns: 80% ;
+      gap: 5%;
+   }
+
+   .obr {
+      padding-bottom: 5%;
+      gap: 5%;
+   }
+
+   h1 {
+      visibility: hidden;
+   }
+
+   h3 {
+      font-size: 35px;
+      margin-left: 3%;
+   }
+
+
+
+   .img-skola {
+      visibility: hidden;
+   }
+
+   #map {
+      visibility: hidden;
+
+   }
+   .img-grid1 {
+      display: grid;
+      grid-template-columns: 25% 20%;
+}
+h4 {
+
+   font-family: "Fira Sans";
+   font-weight: bold;
+   font-size: 35px;
+   color: rgb(19, 35, 118);
+}
+}
+
+@media screen and (max-width: 1100px) {
+   #map {
+      
+      width: 400px;
+
+   }
+}
+@media screen and (max-width: 900px) {
+   #map {
+      height: 280px;
+      width: 280px;
+
+}
+}
+@media screen and (max-width: 670px) {
+   .categories1 {
+      left:27%;
+    grid-template-columns: 10% 10% 10% 10%;
+   }
+   .cat-but {
+      font-size: 15px;
+      
+
+   }
+   .home {
+      width:5vw;
+      left:20%;
+      top: 35%;
+   }
+   .logo {
+   visibility: show;
+   top:25%;
+   }
+}
+@media screen and (max-width: 570px) {
+  
+   .categories1 {
+      left:15%;
+      
+    grid-template-columns: 10% 10% 10% 10%;
+   }
+   .home {
+      left:5%
+   }
+   .logo {
+      visibility: hidden;
+   }
+   .cat-but {
+      gap: 0%;
+   }
+}
+@media screen and (max-width: 430px) {
+   
+   .categories1 {
+      left:10%;
+      font-size: 13px;
+    grid-template-columns: 8% 8% 8% 5%;
+
+ }
+ .cat-but {
+   font-size: 15px;
+ }
+
+ #rozvrh {
+   margin-top:-185%;
+ }
+ .grid-odbory1 {
+   grid-template-columns: 80% ;
+ }
+ .grid-odbory2 {
+   grid-template-columns: 80%;
+ }
+ h4 {
+   font-size: 25px;
+ }
+ .home {
+   width:6vw;
+ }
+ .p3-text  {
+   top:70%;
+ }
+ .underline-text {
+   margin-top: 20%;
+ }
+ .site-header {
+   height:12%;
+   }
 }
