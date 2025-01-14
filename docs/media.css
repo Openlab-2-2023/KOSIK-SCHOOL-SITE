@@ -187,6 +187,7 @@
       visibility: hidden;
    }
 
+
    .intro-imgdiv {
       background-position: right;
       height: 250px;
@@ -199,10 +200,12 @@
       column-gap:5%;
       
       
+      
    }
    .grid-odbory2 {
       column-gap:5%;
       grid-template-columns: 80% ;
+      margin-top: 30px;
       
       
    }
@@ -311,7 +314,14 @@
 
    #map {
       visibility: hidden;
+      width:0px;
+      height:0px;
 
+   }
+   .underline1 {
+      margin:0;
+      padding:0;
+      visibility: hidden;
    }
    .img-grid1 {
       display: grid;
@@ -342,30 +352,33 @@ h4 {
 }
 @media screen and (max-width: 670px) {
    .categories1 {
-      left:27%;
+      left:18%;
     grid-template-columns: 10% 10% 10% 10%;
    }
    .cat-but {
-      font-size: 15px;
+      font-size: 18px;
       
 
    }
    .home {
       width:5vw;
-      left:20%;
+      left:5%;
       top: 35%;
    }
    .logo {
-   visibility: show;
-   top:25%;
+   visibility: hidden;
+   width:0px;
    }
 }
 @media screen and (max-width: 570px) {
   
    .categories1 {
-      left:15%;
+      left:12%;
       
-    grid-template-columns: 10% 10% 10% 10%;
+    grid-template-columns: 10% 10% 10% 8%;
+   }
+   .cat-but {
+      font-size:12px;
    }
    .home {
       left:5%
@@ -378,13 +391,7 @@ h4 {
    }
 }
 @media screen and (max-width: 430px) {
-   
-   .categories1 {
-      left:10%;
-      font-size: 13px;
-    grid-template-columns: 8% 8% 8% 5%;
 
- }
  .cat-but {
    font-size: 15px;
  }
