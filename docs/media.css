@@ -393,11 +393,11 @@ h4 {
 @media screen and (max-width: 430px) {
 
  .cat-but {
-   font-size: 15px;
+   font-size: 16px;
  }
 
  #rozvrh {
-   margin-top:-185%;
+   margin-top: -185%;
  }
  .grid-odbory1 {
    grid-template-columns: 80% ;
@@ -406,7 +406,7 @@ h4 {
    grid-template-columns: 80%;
  }
  h4 {
-   font-size: 25px;
+   font-size: 20px;
  }
  .home {
    width:6vw;
