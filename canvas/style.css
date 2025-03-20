@@ -1,0 +1,15 @@
+
+body {
+    justify-content: center;
+    display: flex; justify-content: center; align-items: center;
+}
+
+#border {
+    margin-top: 5%;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    border: solid, black, 3px;
+    
+}
